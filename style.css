@@ -1,0 +1,131 @@
+.navbar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbaritems{
+    color: black;
+    margin:10px;
+    
+}
+.navbarimg{
+    justify-content: left;
+}
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+  
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color:black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.centre-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gimage{
+    margin-top: 215px;
+}
+.input{
+    display: flex;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:30px;
+    width: 584px;
+    height: 40px;
+    border-radius: 30px;
+    border-width: 1px;
+}
+.btn{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius:4px;
+    color:#3c4043;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin:11px;
+    padding: 0 16px;
+    line-height: 27px;
+    height:36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.h1-style{
+    color: #d93025; 
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.line{
+    border-bottom: 1px solid  #ebebeb;
+}
+
+.h2-advanced{
+    font-size: 16px;
+    color: #333333;
+}
+
+.div-advanced{
+    margin:35px;
+}
+
+.row-input{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.left{
+    width:200px;
+}
+
+.right{
+    width:385px;
+}
+
+.padvanced{
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.btn-advanced{
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -moz-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -ms-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -o-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: flex-end;
+    width: 590px;
+    margin-top: 30px;
+}
